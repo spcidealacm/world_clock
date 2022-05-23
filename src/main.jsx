@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { ClickToComponent } from "click-to-react-component";
 import { createGlobalStyle } from "styled-components";
 import App from "./App";
 const GlobalStyle = createGlobalStyle`
@@ -30,5 +31,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <GlobalStyle />
     <App />
+    <ClickToComponent />
   </>
 );
